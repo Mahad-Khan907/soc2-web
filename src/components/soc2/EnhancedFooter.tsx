@@ -37,7 +37,7 @@ export const EnhancedFooter = () => {
     setIsAiTyping(true);
     setAiResponse('');
     try {
-     const response = await fetch('https://web-production-dc50.up.railway.app/', {
+     const response = await fetch('https://web-production-dc50.up.railway.app/chat', {
   method: 'POST',
   headers: {
     'Content-Type': 'application/json',
