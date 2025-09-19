@@ -37,7 +37,7 @@ export const EnhancedFooter = () => {
     setIsAiTyping(true);
     setAiResponse('');
     try {
-     const response = await fetch('https://soc2-myagent-hfpz.vercel.app/chat', {
+     const response = await fetch('https://soc2-myagent-hfpz.vercel.app/', {
   method: 'POST',
   headers: {
     'Content-Type': 'application/json',
