@@ -37,7 +37,7 @@ export const EnhancedFooter = () => {
     setIsAiTyping(true);
     setAiResponse('');
     try {
-     const response = await fetch('https://soc2-myagent-hfpz.vercel.app/', {
+     const response = await fetch('https://web-production-dc50.up.railway.app/', {
   method: 'POST',
   headers: {
     'Content-Type': 'application/json',
